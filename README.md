@@ -38,7 +38,7 @@ instead of
 
 `v = zeros(RL.num_samples,sqrt_num_pixels^2);`
 
-**Figure 3:** In file `paper_figures.m`, un-comment the block of code for Figure 3 and run the file. The plots corresponding to Figure 3 should appear. There is also the option to run `fitted_VI.m` (not shown in Figure 3) by un-commenting the appropriate code block. 
+**Figure 3:** In file `paper_figures.m`, un-comment the block of code for Figure 3 and run the file. The plots corresponding to Figure 3 should appear. There is also the option to run `fitted_VI.m` (not shown in Figure 3) by un-commenting the appropriate code block in file `figure_driver_1.m`. 
 
 **Figure 4:** In file `paper_figures.m`, un-comment the block of code for Figure 4 (making sure to re-comment the Figure 3 block) and run the file. Again, there is the option to run `fitted_VI.m`not shown in Figure 4.
 

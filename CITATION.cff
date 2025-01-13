@@ -10,7 +10,7 @@ message: >-
   metadata from this file.
 type: software
 authors:
-  - given-names: Peter
+  - given-names: P.N.
     family-names: Loxley
 identifiers:
   - type: doi

@@ -1,8 +1,8 @@
-% Paper figures 3--10 (see README.md for instructions)
+% Paper figures 3--9 (see README.md for instructions)
 
 % Uncomment and run each code block as necessary
 
-% % Figure 3
+% % Figure 5
 % clear all
 % initial_state_opt = {[0,1],[0,0]};
 % initial_state_greedy = {[0,0],[0,0]};
@@ -11,7 +11,7 @@
 % p = 1.0;
 % run("figure_driver_1")
 
-% % Figure 4
+% % Figure 6
 % clear all
 % p = 0.0; % Markov chain parameter
 % initial_state_opt = {[0,1],[0,0]};
@@ -24,7 +24,7 @@
 % initial_state_greedy = initial_state_opt;
 % run("figure_driver_1")
 
-% % Figure 5 (number_of_images = 1 instead of 48)
+% % Figure 3 (number_of_images = 1 instead of 48)
 % clear all
 % number_of_images = 1; % 48;
 % filename_vec = {'ImGDS_*.txt', 'OC_up*.txt', 'W*.txt', 'OC_S*.txt'};
@@ -33,7 +33,7 @@
 % legend_contents = ["\times 1 Raw Image","\times 4 Raw Image","\times 1 Whitened Image","\times 4 Sparse Code"];
 % run("figure_driver_2")
 
-% % Figure 6 (number_of_images = 1 takes around 40 minutes with a gpu)
+% % Figure 4 (number_of_images = 1 takes around 40 minutes with a gpu)
 % clear all
 % number_of_images = 1; % 48;
 % filename_vec = {'W*.txt', 'OC_S*.txt', 'OOC_S*.txt', 'OOOC_S*.txt'};
@@ -47,7 +47,7 @@
 % filename_vec = {'W*.txt', 'OC_S*.txt', 'OOC_S*.txt', 'OOOC_S*.txt'};
 % run("figure_driver_3")
 
-% % Figures 8 and 9 (num_states = 21675 takes around 33 hours with a gpu:
+% % Figure 8 (num_states = 21675 takes around 33 hours with a gpu:
 % % this corresponds to about 10 minutes per time period)
 % clear all
 % horizon = 200;
@@ -57,7 +57,7 @@
 % a = 4000; b = 4050;
 % run("figure_driver_4")
 
-% % Figure 10: %%% Also need to uncomment code block in RL_benchmark.m %%%
+% % Figure 9: %%% Also need to uncomment code block in RL_benchmark.m %%%
 % clear all
 % horizon = 400;
 % sqrt_num_locations = 11;        

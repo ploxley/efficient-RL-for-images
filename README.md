@@ -1,4 +1,4 @@
-# Code for "Efficient Reinforcement Learning for Optimal Control with Natural Images" <br> https://doi.org/10.1016/j.neucom.2026.134840
+# Code for "Efficient Reinforcement Learning for Optimal Control with Natural Images" <br> doi 10.1016/j.neucom.2026.134840
 
 This code reproduces the figures in the journal article "Efficient Reinforcement Learning for Optimal Control with Natural Images". To run this code requires `Matlab`, although the crucial pieces of code should be clear enough to implement in any language. Download a snapshot of the repository's files as a zip file to your local computer, and then unpack the zip file. Reproducing the paper figures is broken down into the following two steps.
 

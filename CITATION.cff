@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Optimal control with natural images: Efficient
+  reinforcement learning using overcomplete sparse codes
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: P.~N.
+    family-names: Loxley
+identifiers:
+  - type: doi
+    value: 10.1016/j.neucom.2026.134840
+repository-code: 'https://github.com/ploxley/efficient-RL-for-images'
+keywords:
+  - Natural image sequence
+  - Optimal policy
+  - Overcomplete sparse codes
+  - Sufficient statistic
+  - Benchmark
+license: MIT
+date-released: '2025-01-09'
